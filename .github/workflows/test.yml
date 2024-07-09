@@ -1,0 +1,12 @@
+name: Playing
+
+on:
+    push:
+        branches: [main]
+jobs:
+    run_script:
+        runs-on: windows-latest
+        steps:
+            - run: node --version
+            - run: npm --version
+            - run: npm i express
