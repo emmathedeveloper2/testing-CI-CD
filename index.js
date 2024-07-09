@@ -1,2 +1,2 @@
 
-console.log("Hello Workflows")
+console.log("Hello Workflow")
